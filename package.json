@@ -25,6 +25,7 @@
   "author": "Rodrigo Rossi <rodrigo.rossi@linkapi.com.br>",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "compression": "^1.7.4",
     "dotenv": "^8.2.0",
     "eslint": "^7.14.0",

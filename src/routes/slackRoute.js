@@ -2,6 +2,6 @@ const express = require('express');
 const router = express.Router();
 const slackController = require('../controller/slackController');
 
-router.post('/', slackController.sendMessage);
+router.post('/webhook', slackController.sendHooksMessage);
 
 module.exports = router;

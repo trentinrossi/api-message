@@ -16,9 +16,9 @@ app.use(
 
 app.use(compression());
 app.use(express.json());
-app.use('/message/email', emailRoute);
-app.use('/message/slack', slackRoute);
-app.use('/message/telegram', telegramRoute);
+app.use('/email', emailRoute);
+app.use('/slack', slackRoute);
+app.use('/telegram', telegramRoute);
 
 var server = app.listen(port);
 server.setTimeout(900000);
